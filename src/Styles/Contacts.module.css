@@ -1,0 +1,37 @@
+.contacts{
+    width: 300px;
+    height: 570px;
+    overflow: auto;
+    box-shadow: 0px  0px 5px 0px rgb(12, 45, 56);
+    border: 1px solid #d3d3d3;
+}
+
+.contacts .all{
+    margin-left: 10px;
+}
+
+.contacts .user{
+    display: flex;
+}
+
+.contacts .user img{
+    height: 60px;
+    margin-right: 20px;
+}
+
+.item{
+    display: flex;
+}
+
+.navLink{
+    text-decoration: none;
+}
+
+.contacts .item img{
+    height: 60px;
+}
+
+.contacts .item h4{
+    margin-left: 20px;
+    margin-top: 15px;
+}
